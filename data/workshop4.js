@@ -22,7 +22,7 @@ print (field_stations)
 Map.addLayer (field_stations, {color: 'yellow'}, 'Field Station')
 Map.centerObject(Orpheus, 14)
 
-//// 2. Data processing
+/// Data processing
 ///ACA
  
  var aca = ee.Image("ACA/reef_habitat/v2_0").select('benthic')
