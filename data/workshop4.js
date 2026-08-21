@@ -1,3 +1,45 @@
+var Heron = /* color: #98ff00 */ee.Feature(
+        ee.Geometry.Point([151.9114949155441, -23.44147130028971]),
+        {
+          "station": "HeronIsland",
+          "system:index": "0"
+        }),
+    Hamilton = /* color: #00ffff */ee.Feature(
+        ee.Geometry.Point([148.95647400072073, -20.346150348227162]),
+        {
+          "station": "HamiltoIsland",
+          "system:index": "0"
+        }),
+    Lizard = /* color: #bf04c2 */ee.Feature(
+        ee.Geometry.MultiPoint(),
+        {
+          "station": "LizardIsland",
+          "system:index": "0"
+        }),
+    Daydream = /* color: #ff0000 */ee.Feature(
+        ee.Geometry.Point([145.4449626441156, -14.667743494253271]),
+        {
+          "station": "DaydreamIsland",
+          "system:index": "0"
+        }),
+    Orpheus = /* color: #00ff00 */ee.Feature(
+        ee.Geometry.Point([146.48336815795128, -18.612443693548297]),
+        {
+          "station": "orpheusIsland",
+          "system:index": "0"
+        }),
+    Magnetic = /* color: #0000ff */ee.Feature(
+        ee.Geometry.Point([146.87106699752806, -19.15388347587481]),
+        {
+          "station": "MagneticIsland",
+          "system:index": "0"
+        }),
+    Green = /* color: #009999 */ee.Feature(
+        ee.Geometry.Point([145.9692314963341, -16.757960697589468]),
+        {
+          "station": "GreenIsland",
+          "system:index": "0"
+        });
 // Global Variables
 var distance = 800 // metres we are allowed to snorkel from the station
 Map.setOptions('SATELLITE')
